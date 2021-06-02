@@ -85,7 +85,7 @@ export default class Map extends Component {
     return (
       <View style={{ flex: 1 }}>
         <MapView
-       // provider={PROVIDER_GOOGLE}
+        //  provider={PROVIDER_GOOGLE}
           style={{ flex: 1 }}
           region={region}
           showsUserLocation

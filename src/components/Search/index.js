@@ -18,7 +18,9 @@ export default class Search extends Component {
         onPress={onLocationSelected}
         query={{
           key: googleMapsConfig.apiKey,
-          language: "pt"
+          language: "pt", 
+          components: ["country:br", "country:au"]
+
         }}
         textInputProps={{
           onFocus: () => {
